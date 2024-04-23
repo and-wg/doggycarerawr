@@ -48,7 +48,6 @@ app.post('/dogs/addDogProfile', async (req, res) => {
 });
 
 
-
 app.get('/dogs/:id', async (req, res) => {
   try {
     const dog = await Dog.findById(req.params.id).populate('friends');
