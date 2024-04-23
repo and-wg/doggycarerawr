@@ -1,0 +1,251 @@
+/* General styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Start Component */
+.start-component {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.start-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+}
+
+/* Dog List */
+.dogs-list {
+  margin-top: 20px;
+}
+
+.dogs-list-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.dog-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.dog-link {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.remove-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.remove-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Profile Component */
+.profile-component {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-buttons-container {
+  margin-bottom: 20px;
+}
+
+.go-to-start-button,
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin: 10px;
+}
+
+.go-to-start-button:hover,
+.edit-button:hover {
+  background-color: #45a049;
+}
+
+.profile-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.presence-info {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dog-image-container {
+  width: 350px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.dog-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.info-and-friends-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.dog-info {
+  text-align: left;
+  color: #333;
+}
+
+.friends-container {
+  margin-left: 50px;
+}
+
+.friends-heading {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.friends-list {
+  list-style: none;
+  padding: 0;
+}
+
+.friend-item {
+  margin-top: 10px;
+  color: #333;
+}
+
+/* Form Component */
+.form-card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-card button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.form-card button:hover {
+  background-color: #45a049;
+}
+
+.form-card h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-card form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-card label {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.form-card input[type="text"],
+.form-card input[type="number"],
+.form-card input[type="checkbox"] {
+  width: 50%;
+  padding: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.form-card input[type="checkbox"] {
+  width: auto;
+}
+
+.form-card fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.form-card legend {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.form-card button[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.form-card button[type="submit"]:hover {
+  background-color: #45a049;
+}
